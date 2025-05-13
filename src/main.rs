@@ -42,7 +42,7 @@ fn main() {
     let is_acceptable_coffee: bool = with_milk == true || with_sugar == true;
 
     let array_i8: [i8; 4] = [7, 1, 21, 14];
-    let the_tuple = (a_number, another_number, is_my_type_of_coffee, array_i8);
+    let the_tuple = (a_number, float_number, is_my_type_of_coffee, array_i8);
 
     println!("\n\nThe array is:\n{:?}", array_i8);
     println!("{:#?}", array_i8);
