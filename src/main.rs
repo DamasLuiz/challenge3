@@ -30,8 +30,7 @@ Print out the tuple in its Debug representation.
 
 fn main() {
     let a_number: i32 = 1_337;
-    let a_number: i16 = 1_337;
-    let another_number: i16 = a_number;
+    let another_number = a_number as i16;
 
     let float_number: f64 = 6.2639017267633;
     println!("{:.3}", float_number);
